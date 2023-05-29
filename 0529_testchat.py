@@ -81,20 +81,18 @@ for index, data in enumerate(parking_list, start=0):  #장소 리스트 만큼
         sleep(2)
 
         names = driver.find_elements(By.CSS_SELECTOR, '.Fc1rA')  # (3) 장소명
-        if index < len(names):
-            name = names[index].text
-            print(name)
 
-            # dict에 데이터 집어넣기
-            dict_temp = {
-                'ho': names
-            }
-            parking_dict['병원정보'].append(dict_temp)
-            print(f'{name}...완료')
-            sleep(2)
-        else:
-            print(f"인덱스 {index}는 names 리스트의 범위를 벗어났습니다.")
-            sleep(2)
+        name = names[index - 1].text
+        print(name)
+
+        # dict에 데이터 집어넣기
+        dict_temp = {
+            'ho': name
+        }
+        parking_dict['병원정보'].append(dict_temp)
+        print(f'{name}...완료')
+        
+        sleep(3)
 
         # 프레임 전환
         switch_frame('searchIframe')
