@@ -91,7 +91,10 @@ for data in range(len(parking_list)):  #장소 리스트 만큼
         sleep(1)
 
         name = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[2]/div[1]/div[1]/span[1]')
-        print(name)
+        sleep(2)
+        for element in name:
+            print(element.text)
+
         
 
         #프레임전환
