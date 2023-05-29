@@ -1,0 +1,1528 @@
+{
+    "주차장정보": [
+        {
+            "name": "야당역환승 주차장",
+            "parking_type": "환승주차장",
+            "road_address": "경기 파주시 소리천로 14",
+            "jibun_address": "야당동 1087"
+        },
+        {
+            "name": "야당역 공영 주차장",
+            "parking_type": "공영주차장",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동 420-1"
+        },
+        {
+            "name": "야당역 환승 공영 주차장",
+            "parking_type": "공영주차장",
+            "road_address": "경기 파주시 소리천로 14",
+            "jibun_address": "야당동 1087"
+        },
+        {
+            "name": "삼융타워 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로 1090",
+            "jibun_address": "야당동 1072-1"
+        },
+        {
+            "name": "유은타워5차주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 소리천로 29",
+            "jibun_address": "야당동 1085"
+        },
+        {
+            "name": "유은타워3차 주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 경의로 1092",
+            "jibun_address": "야당동 1072"
+        },
+        {
+            "name": "Tmap주차 야당월드스테이 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로 1010",
+            "jibun_address": "야당동 1046"
+        },
+        {
+            "name": "호수주차타워",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로 1066",
+            "jibun_address": "야당동 1066-3"
+        },
+        {
+            "name": "케이힐스더테라스 오피스텔 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 심학산로 628",
+            "jibun_address": "야당동 1079"
+        },
+        {
+            "name": "파주 롯데프라자 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로1004번길 37",
+            "jibun_address": "야당동 1052"
+        },
+        {
+            "name": "호수프라자 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로 1070",
+            "jibun_address": "야당동 1066-1"
+        },
+        {
+            "name": "월드타워7차 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로 1108",
+            "jibun_address": "야당동 1074"
+        },
+        {
+            "name": "운정명동",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 경의로 1080",
+            "jibun_address": "야당동 1070"
+        },
+        {
+            "name": "나이스파크 이든시티 오피스텔 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로 1024",
+            "jibun_address": "야당동 1050-1"
+        },
+        {
+            "name": "아미가골프클럽주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 동서대로 700",
+            "jibun_address": "야당동 466-24"
+        },
+        {
+            "name": "세웅종합관리 연세프라자 주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 경의로 1108 -",
+            "jibun_address": "야당동 1074 -"
+        },
+        {
+            "name": "와이유시스템",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로 1114",
+            "jibun_address": "야당동 1076"
+        },
+        {
+            "name": "한빛도서관주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 와석순환로 94",
+            "jibun_address": "야당동 1003-1"
+        },
+        {
+            "name": "새암공원주차장",
+            "parking_type": "주차장",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동 1022"
+        },
+        {
+            "name": "한소망교회주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 경의로 983",
+            "jibun_address": "야당동 486-7"
+        },
+        {
+            "name": "아미가골프클럽주차장",
+            "parking_type": "주차장",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동 466-38"
+        },
+        {
+            "name": "야당역주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "야당역주차장출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "유은타워7차지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "야당역아이플렉스지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "삼융시네마지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "파크뷰테라스지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "삼융타워지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "한빛마을자유로아이파크3단지아파트P8주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "버거킹 파주야당역점주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "스타프라자주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "한빛마을캐슬앤칸타빌5단지아파트501동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "월드타워7차지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "한빛마을센트럴파크한라비발디아파트P1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "한빛마을9단지롯데캐슬파크타운정문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "한빛마을센트럴파크한라비발디아파트P3주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "한빛마을자유로아이파크3단지아파트P3주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "한빛마을캐슬앤칸타빌5단지아파트519동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "한빛마을캐슬앤칸타빌5단지아파트후문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "가람마을공원지하주차장",
+            "parking_type": "공영주차장",
+            "road_address": "경기 파주시 가람로21번길 16-16",
+            "jibun_address": "와동동 1591"
+        },
+        {
+            "name": "운정역환승공영주차장",
+            "parking_type": "공영주차장",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동 1473"
+        },
+        {
+            "name": "탄현역환승공영주차장",
+            "parking_type": "환승주차장",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동 290-3"
+        },
+        {
+            "name": "산내마을2공영주차장",
+            "parking_type": "공영주차장",
+            "road_address": "경기 파주시 산내로 120",
+            "jibun_address": "목동동 953"
+        },
+        {
+            "name": "홈플러스 파주운정점 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 청암로17번길 17",
+            "jibun_address": "목동동 927"
+        },
+        {
+            "name": "탄현환승 공영 주차장",
+            "parking_type": "공영주차장",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동 272-8"
+        },
+        {
+            "name": "탄현제5공영주차장",
+            "parking_type": "공영주차장",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동 1489"
+        },
+        {
+            "name": "운정호수공원주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 경의로 1170",
+            "jibun_address": "와동동 1415"
+        },
+        {
+            "name": "운정역 환승 공영 주차장",
+            "parking_type": "공영주차장",
+            "road_address": "",
+            "jibun_address": "경기 파주시 운정1동 2012-3복"
+        },
+        {
+            "name": "한울마을공영주차장",
+            "parking_type": "공영주차장",
+            "road_address": "경기 파주시 동패로 93",
+            "jibun_address": "동패동 1892"
+        },
+        {
+            "name": "씨티타워 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로 371",
+            "jibun_address": "동패동 1759-6"
+        },
+        {
+            "name": "홈플러스 운정점 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 청암로17번길 17",
+            "jibun_address": "목동동 927"
+        },
+        {
+            "name": "아주주차빌딩",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 와석순환로515번길 21",
+            "jibun_address": "와동동 1429"
+        },
+        {
+            "name": "해태쇼핑타운 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산동구 중산동 1610"
+        },
+        {
+            "name": "GS파크24 이마트운정점",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 한울로 123",
+            "jibun_address": "동패동 1763"
+        },
+        {
+            "name": "운정역주차장",
+            "parking_type": "주차장",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동 1421"
+        },
+        {
+            "name": "운정호수공원주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 경의로 1180",
+            "jibun_address": "와동동 1415"
+        },
+        {
+            "name": "스피드메이트 타이어 운정신도시점 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 산내로104번길 14-16",
+            "jibun_address": "목동동 986"
+        },
+        {
+            "name": "운정스퀘어주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로 377",
+            "jibun_address": "동패동 1759-4"
+        },
+        {
+            "name": "형성프라자 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 와석순환로 133",
+            "jibun_address": "동패동 1759-1"
+        },
+        {
+            "name": "크라우드스트리트(CLOUDSTREET",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로 369-55",
+            "jibun_address": "동패동 1761"
+        },
+        {
+            "name": "KFC파주운정점 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 와석순환로 286",
+            "jibun_address": "목동동 1051"
+        },
+        {
+            "name": "아훈주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 고양시 일산서구 경의로 858-1",
+            "jibun_address": "덕이동 272-3"
+        },
+        {
+            "name": "파주우성메디피아 주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 미래로 369-72",
+            "jibun_address": "동패동 1758-4"
+        },
+        {
+            "name": "운정세안파크주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 와석순환로515번길 81",
+            "jibun_address": "와동동 1452"
+        },
+        {
+            "name": "운정건강공원주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 와석순환로172번길 35",
+            "jibun_address": "동패동 1800"
+        },
+        {
+            "name": "신우빌딩주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 청암로17번길 17",
+            "jibun_address": "목동동 927"
+        },
+        {
+            "name": "하이파킹월드스퀘어주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 책향기로 830",
+            "jibun_address": "와동동"
+        },
+        {
+            "name": "신한프라자 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 와석순환로 135",
+            "jibun_address": "동패동 1758"
+        },
+        {
+            "name": "송림메디컬프라자 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 와석순환로515번길 61",
+            "jibun_address": "와동동 1450-1"
+        },
+        {
+            "name": "해솔프라자 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로 620 해솔프라자",
+            "jibun_address": "와동동 1301-4"
+        },
+        {
+            "name": "삼성프라자 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로 375",
+            "jibun_address": "동패동 1759-5"
+        },
+        {
+            "name": "파주월드타워12차 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로 1218",
+            "jibun_address": "와동동 1431-1"
+        },
+        {
+            "name": "현대프라자 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 와석순환로 125",
+            "jibun_address": "동패동 1759-2"
+        },
+        {
+            "name": "나이스파크 파주 운정동우체국 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 금바위로 36",
+            "jibun_address": "와동동 1386"
+        },
+        {
+            "name": "아마노 동패동 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동 1912"
+        },
+        {
+            "name": "파주놀이구름제2주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 와석순환로 470",
+            "jibun_address": "와동동 1412"
+        },
+        {
+            "name": "카르디아 세차장 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 산내로123번길 6-29",
+            "jibun_address": "목동동 1022-1"
+        },
+        {
+            "name": "운정호수공원주차장3",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 가온로 188",
+            "jibun_address": "와동동 1412"
+        },
+        {
+            "name": "한국토지주택공사 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로 369-55",
+            "jibun_address": "동패동 1761"
+        },
+        {
+            "name": "운정덕진프라자 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 와석순환로 511",
+            "jibun_address": "와동동 1426-1"
+        },
+        {
+            "name": "카카오 T 브릭929 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 청암로17번길 39",
+            "jibun_address": "목동동 929"
+        },
+        {
+            "name": "나이스파크 KFC파주운정점 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 와석순환로 286",
+            "jibun_address": "목동동 1051"
+        },
+        {
+            "name": "M833주차빌딩",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 가재울로 24-2",
+            "jibun_address": "목동동 833"
+        },
+        {
+            "name": "Tmap주차 MK타워파주 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 가람로 39",
+            "jibun_address": "와동동 1557-4"
+        },
+        {
+            "name": "운정 셀프세차장 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 교하로307번길 10",
+            "jibun_address": "동패동 1845"
+        },
+        {
+            "name": "나이스파크 일산 덕이동 신성프라자 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 고양시 일산서구 하이파크3로 84",
+            "jibun_address": "덕이동 1542"
+        },
+        {
+            "name": "나이스파크 파주 월드스퀘어 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 책향기로 830",
+            "jibun_address": "와동동 1456-3"
+        },
+        {
+            "name": "나이스파크 파주 봄2빌딩 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로 369-59",
+            "jibun_address": "동패동 1761-6"
+        },
+        {
+            "name": "나이스파크 롯데슈퍼 운정점 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로602번길 10",
+            "jibun_address": "와동동 1304-1"
+        },
+        {
+            "name": "나이스파크 파주 메디스타워 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로602번길 11",
+            "jibun_address": "와동동 1303-4 메디스타워"
+        },
+        {
+            "name": "메디컬 프라자 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 미래로 610 운정메디컬프라자",
+            "jibun_address": "와동동 1303-1"
+        },
+        {
+            "name": "팜스마트 운정점 민영 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 심학산로423번길 2",
+            "jibun_address": "목동동 1116"
+        },
+        {
+            "name": "파주놀이구름주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 와석순환로 500 유비파크체험관",
+            "jibun_address": "와동동 1412 유비파크체험관"
+        },
+        {
+            "name": "나이스파크 운정 센트럴하이뷰 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 경의로 1240",
+            "jibun_address": "와동동 1433 운정역 센트럴 하이뷰"
+        },
+        {
+            "name": "나이스파크 파주 목동프라자 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 파주시 교하로159번길 33",
+            "jibun_address": "목동동 1054 목동프라자"
+        },
+        {
+            "name": "나이스파크 일산 의주상가 주차장",
+            "parking_type": "민영주차장",
+            "road_address": "경기 고양시 일산서구 경의로 904",
+            "jibun_address": "덕이동 304-14"
+        },
+        {
+            "name": "덕이동로데오타운주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 고양시 일산서구 탄중로 111",
+            "jibun_address": "덕이동 263-19"
+        },
+        {
+            "name": "운정동우체국주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 금바위로 36",
+            "jibun_address": "와동동 1386"
+        },
+        {
+            "name": "순두부마을주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 고양시 일산동구 고봉로 460",
+            "jibun_address": "성석동 1305-14"
+        },
+        {
+            "name": "SBS A&T주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 고양시 일산서구 일현로 111",
+            "jibun_address": "탄현동 301-3"
+        },
+        {
+            "name": "오성골프클럽주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 운정4길 221 클럽하이300",
+            "jibun_address": "상지석동 551-36"
+        },
+        {
+            "name": "홀트일산복지타운주차장",
+            "parking_type": "주차장",
+            "road_address": "",
+            "jibun_address": ""
+        },
+        {
+            "name": "롯데하이마트 파주운정점주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 미래로 311",
+            "jibun_address": "동패동 106-2"
+        },
+        {
+            "name": "후앙빌딩주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 와석순환로 427",
+            "jibun_address": "와동동 1365-2"
+        },
+        {
+            "name": "삼성스토어 운정점주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 미래로 304",
+            "jibun_address": "동패동 21"
+        },
+        {
+            "name": "그랜드골프클럽전용주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 고양시 일산서구 경의로 886",
+            "jibun_address": "덕이동 273"
+        },
+        {
+            "name": "LG전자베스트샵 운정점주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 파주시 미래로 319",
+            "jibun_address": "동패동 106-1"
+        },
+        {
+            "name": "중산힐스주차장",
+            "parking_type": "주차장",
+            "road_address": "경기 고양시 일산동구 고봉로 467-56",
+            "jibun_address": "성석동 1306-9"
+        },
+        {
+            "name": "운정역 환승 공영 주차장출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "일산두산위브더제니스스퀘어지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "홈플러스 파주운정점주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "가람마을공원지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "엠버418오피스텔주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "미봉프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "백송프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "일산두산위브더제니스아파트104동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "일산두산위브더제니스102동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "현대프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "씨티타워지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "일산두산위브더제니스아파트GATE 2주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "하이파크시티일산아이파크1단지아파트후문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "이마트 파주운정점주차장출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "탄현역환승공영주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "형성프라자지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "유은타워8차주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "고양시립한뫼도서관주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 일산동복"
+        },
+        {
+            "name": "센타프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "해태쇼핑타운지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산동구 중산동복"
+        },
+        {
+            "name": "팜스마트 산내점지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "운정스퀘어주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "금문프라자주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "운정한강듀클래스주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "한빛마을센트럴파크한라비발디아파트P2주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 야당동복"
+        },
+        {
+            "name": "탄현마을일신9단지아파트지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "해솔프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "이마트 파주운정점주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "중산마을일신건영3단지아파트지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산동구 중산동복"
+        },
+        {
+            "name": "유은타워9차지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "한울프라자지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "삼성프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "신성프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "운정역 환승 공영 주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "월드타워9지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "성호프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "해솔마을두산위브아파트GateW주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "해솔마을삼부르네상스5단지아파트GATE2주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "신우빌딩지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "운정화성파크드림시그니처GATE1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "일산에듀포레푸르지오아파트101동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "운정역센트럴하이뷰오피스텔주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "열린프라자1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "한울마을삼부르네상스7단지아파트정문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "리더스프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "홈플러스 파주운정점주차장출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "준프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "동문굿모닝힐3단지아파트5지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "골든타워지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "명인빌딩지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "탄현마을부영7단지아파트제1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "월드스타프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "동문굿모닝힐3단지아파트2지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "가람마을휴먼시아2단지아파트P1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "가람마을LH6단지아파트지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "하이파크시티일산아이파크5단지아파트P2주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "탄현큰마을현대아파트P2주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "하이파크시티일산파밀리에4단지아파트P4주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "현대메디칼프라자지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "가람마을휴먼시아2단지아파트P2주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "양지프라자II주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "M833주차빌딩주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "해솔마을운정현대3단지아파트P3주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "해솔마을운정현대3단지아파트P5주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "우성메디피아지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "중앙프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "송림프라자지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "중산마을일신건영3단지아파트지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산동구 중산동복"
+        },
+        {
+            "name": "멕아이씨에스주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 상지석동복"
+        },
+        {
+            "name": "해솔마을운정현대3단지아파트P4주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "라이프프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "월드스퀘어지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "현대프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "하이파크시티일산파밀리에2단지아파트208동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "운정법조타운주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "하이파크시티일산파밀리에2단지아파트207동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "하이파크시티일산파밀리에2단지아파트211동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "하이파크시티일산파밀리에2단지아파트212동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "운정신도시아이파크124동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "가람마을동양엔파트월드메르디앙10단지아파트후문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "아름터타워지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "메디컬프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "일산에듀포레푸르지오아파트104동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "신운정프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "월드타워지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "하이파크시티일산아이파크5단지아파트P3주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "대흥프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "가람마을벽산한라1단지아파트정문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "벽산우남연리지4단지아파트411동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "한미프라자주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "월드타워12지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "하이파크시티일산파밀리에4단지아파트P2주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "해솔마을삼부르네상스5단지아파트GATE1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "가람마을11단지동문굿모닝힐아파트1107동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "가람마을남양휴튼9단지아파트901동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "탄현마을한신6단지아파트지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "아이프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "월드타워15주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "윤정프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "메디스타워지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "가람마을11단지동문굿모닝힐아파트1105동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "롯데슈퍼 운정점주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "벽산우남연리지4단지아파트408동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "휴엔코아지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "하이파크시티일산파밀리에4단지아파트P3주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "가람마을남양휴튼9단지아파트908동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "지산프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "해솔마을운정현대3단지아파트상가주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "해솔마을운정현대3단지아파트P2주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "동방프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "현해프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "아름터프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "가람마을휴먼시아2단지아파트P4주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "가람마을한양수자인4단지아파트정문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "하이파크시티일산아이파크1단지아파트정문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "해솔마을운정현대3단지아파트P6주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "하이파크시티일산아이파크5단지아파트P1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "동양라파크P1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "중산마을두산1단지아파트지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산동구 중산동복"
+        },
+        {
+            "name": "일산임광진흥아파트지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "해솔마을운정현대3단지아파트P1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "애플프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "올리브프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "가람마을동양엔파트월드메르디앙10단지아파트정문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "올림피아빌딩주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산동구 중산동복"
+        },
+        {
+            "name": "해솔마을두산위브아파트GateE주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "신한프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 동패동복"
+        },
+        {
+            "name": "세섬프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "대광프라자지하주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "덕진프라자지하주차장입출구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "운정화성파크드림시그니처GATE2주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 목동동복"
+        },
+        {
+            "name": "가람마을휴먼시아2단지아파트P3주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "하이파크시티일산파밀리에4단지아파트P1주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 덕이동복"
+        },
+        {
+            "name": "가람마을한라비발디7단지아파트GATE1",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "가람마을한라비발디7단지아파트GATE3",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "가람마을한라비발디7단지아파트GATE2",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "피플카 가람마을 2단지 옆(맑은교회 뒤 공영주차장)",
+            "parking_type": "카쉐어링",
+            "road_address": "경기 파주시 미래로602번길 2",
+            "jibun_address": "와동동 1304"
+        },
+        {
+            "name": "피플카 운정역 1번출구(운정역 공영주차장 C1,C7)",
+            "parking_type": "카쉐어링",
+            "road_address": "경기 파주시 운정역길 311",
+            "jibun_address": "상지석동 974-13"
+        },
+        {
+            "name": "피플카 탄현역 지하2층 주차장",
+            "parking_type": "카쉐어링",
+            "road_address": "경기 고양시 일산서구 일현로 97-27",
+            "jibun_address": "탄현동 1636"
+        },
+        {
+            "name": "가람마을벽산한라1단지아파트후문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "일산에듀포레푸르지오아파트108동방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 고양시 일산서구 탄현동복"
+        },
+        {
+            "name": "가람마을한양수자인4단지아파트후문방면주차장입구",
+            "parking_type": "방면정보",
+            "road_address": "",
+            "jibun_address": "경기 파주시 와동동복"
+        },
+        {
+            "name": "에프크리트",
+            "parking_type": "미장,타일,방수공사",
+            "road_address": "경기 고양시 일산서구 덕산로 314 201호",
+            "jibun_address": "덕이동 1044-16 201호"
+        },
+        {
+            "name": "대성하이텍",
+            "parking_type": "기계,장비제조",
+            "road_address": "경기 고양시 일산서구 신덕로2번길 29-30",
+            "jibun_address": "덕이동 743-1"
+        },
+        {
+            "name": "태일클리닉",
+            "parking_type": "종합대행업체",
+            "road_address": "경기 파주시 산내로7번길 25-11",
+            "jibun_address": "목동동 1065-1"
+        },
+        {
+            "name": "타이푼 방수",
+            "parking_type": "미장,타일,방수공사",
+            "road_address": "경기 파주시 운정2길 37-1",
+            "jibun_address": "상지석동 978-59"
+        }
+    ]
+}

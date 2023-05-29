@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "youngmi",
+			"path": "."
+		},
+		{
+			"name": "chromedriver_mac64",
+			"path": "../../Downloads/chromedriver_mac64"
+		}
+	],
+	"settings": {}
+}
