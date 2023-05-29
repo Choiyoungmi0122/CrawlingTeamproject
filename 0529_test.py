@@ -67,24 +67,13 @@ print(parking_list)
 
 parking_list = driver.find_elements(By.CSS_SELECTOR, 'li.DWs4Q')
 
-name = []       #병원명
-type = []        #병원유형
-address = []        #주소
-worktime = []       #일하는 시간
-phone = []          #전화번호
-parking = []        #주차정보
-subject = []        #진료과목
-pro = []            #전문의
-
-
 for data in range(len(parking_list)):  #장소 리스트 만큼
     print(data)
 
     sleep(1)
     try:
-        
-
-        # (1) 상세정보 버튼 누르기 
+    
+        # (8) 상세정보 버튼 누르기 
         driver.find_element(By.XPATH, '//*[@id="_pcmap_list_scroll_container"]/ul/li[{}]/div[2]/a[1]/div/div/span[1]'.format(data)).click()
         sleep(1)
 
@@ -92,11 +81,6 @@ for data in range(len(parking_list)):  #장소 리스트 만큼
         driver.switch_to.default_content()
         switch_frame('entryIframe')
         sleep(3)
-
-        name = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[2]/div[1]/div[1]/span[1]')
-        print(name)
-        name.append()
-        
 
         #프레임전환
         driver.switch_to.default_content()
@@ -106,7 +90,6 @@ for data in range(len(parking_list)):  #장소 리스트 만큼
         
         print('...완료')
 
-        sleep(1)
 
     except Exception as e:
         print(e)
