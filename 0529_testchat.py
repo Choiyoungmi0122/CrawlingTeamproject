@@ -65,19 +65,11 @@ print('[크롤링 시작...]')
 parking_list = driver.find_elements(By.CSS_SELECTOR, 'li.DWs4Q')
 print(parking_list)
 names = []       #병원명
-types = []        #병원유형
-addresses = []        #주소
-worktimes= []       #일하는 시간
-phones = []          #전화번호
-parkings = []        #주차정보
-subjects = []        #진료과목
-pros = []            #전문의
-
 #[<selenium.webdriver.remote.webelement.WebElement (session="bdea8eeab0f544ba4b7bed03e2e30ace", element="9E2D84DE1F26E97B6AD3EA3FE59FB171_element_130")>]
 for data in range(len(parking_list)):  #장소 리스트 만큼
     print(data)
 
-    sleep(1)
+    sleep(3)
     try:
         # (1) 상세정보 버튼 누르기 
         driver.find_element(By.XPATH, '/html/body/div[3]/div/div[2]/div[1]/ul/li[{}]/div[2]/a[1]/div[1]/div/span[1]'.format(data)).click()
@@ -89,11 +81,11 @@ for data in range(len(parking_list)):  #장소 리스트 만큼
 
         name = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[2]/div[1]/div[1]/span[1]')
         sleep(2)
-        names.extend(name)
+        names.append(name.text)
         
         #프레임전환
         switch_frame('searchIframe')
-        sleep(1)
+        sleep(2)
 
         print('...완료')
 
@@ -104,5 +96,6 @@ sleep(2)
 print('[데이터 수집 완료]\n소요 시간 :', time.time() - start)
 driver.quit()  # 작업이 끝나면 창을 닫는다.
 
+
 for name_list in names:
-    print(name_list.text)
+    print(name_list)
