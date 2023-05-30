@@ -1,0 +1,40 @@
+{
+  "build": "openblas",
+  "build_number": 16,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "blas-devel 3.9.0 16_osxarm64_openblas",
+    "libblas 3.9.0 16_osxarm64_openblas",
+    "libcblas 3.9.0 16_osxarm64_openblas",
+    "libgfortran 5.*",
+    "libgfortran5 >=11.0.1.dev0",
+    "liblapack 3.9.0 16_osxarm64_openblas",
+    "liblapacke 3.9.0 16_osxarm64_openblas"
+  ],
+  "extracted_package_dir": "/Users/choiyoungmi/anaconda3/pkgs/blas-2.116-openblas",
+  "features": "",
+  "files": [],
+  "fn": "blas-2.116-openblas.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/choiyoungmi/anaconda3/pkgs/blas-2.116-openblas",
+    "type": 1
+  },
+  "md5": "01a646598904d225b6dc3b690a600823",
+  "name": "blas",
+  "package_tarball_full_path": "/Users/choiyoungmi/anaconda3/pkgs/blas-2.116-openblas.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d927d5e674a42f59a83e110702cf0598d93a6ece779d77b87c5f97e29c750f0d",
+  "size": 13458,
+  "subdir": "osx-arm64",
+  "timestamp": 1660094843368,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/blas-2.116-openblas.tar.bz2",
+  "version": "2.116"
+}

@@ -1,0 +1,61 @@
+{
+  "build": "16_osxarm64_openblas",
+  "build_number": 16,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libblas 3.9.0 16_osxarm64_openblas",
+    "libcblas 3.9.0 16_osxarm64_openblas",
+    "liblapack 3.9.0 16_osxarm64_openblas",
+    "liblapacke 3.9.0 16_osxarm64_openblas",
+    "openblas 0.3.21.*"
+  ],
+  "extracted_package_dir": "/Users/choiyoungmi/anaconda3/pkgs/blas-devel-3.9.0-16_osxarm64_openblas",
+  "features": "",
+  "files": [
+    "lib/pkgconfig/blas.pc",
+    "lib/pkgconfig/cblas.pc",
+    "lib/pkgconfig/lapack.pc"
+  ],
+  "fn": "blas-devel-3.9.0-16_osxarm64_openblas.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/choiyoungmi/anaconda3/pkgs/blas-devel-3.9.0-16_osxarm64_openblas",
+    "type": 1
+  },
+  "md5": "0bd8278a473e4e9fa3ba81add8fa3c54",
+  "name": "blas-devel",
+  "package_tarball_full_path": "/Users/choiyoungmi/anaconda3/pkgs/blas-devel-3.9.0-16_osxarm64_openblas.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/blas.pc",
+        "path_type": "softlink",
+        "sha256": "ff67abe3ef9c6dbf40c422f752f07f7069f8c28d0c73fe87601d4075d904a29b",
+        "size_in_bytes": 997
+      },
+      {
+        "_path": "lib/pkgconfig/cblas.pc",
+        "path_type": "softlink",
+        "sha256": "ff67abe3ef9c6dbf40c422f752f07f7069f8c28d0c73fe87601d4075d904a29b",
+        "size_in_bytes": 997
+      },
+      {
+        "_path": "lib/pkgconfig/lapack.pc",
+        "path_type": "softlink",
+        "sha256": "ff67abe3ef9c6dbf40c422f752f07f7069f8c28d0c73fe87601d4075d904a29b",
+        "size_in_bytes": 997
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dc7afb1762abbe07f0b15382eb8aaa6f632343733736943d1b6960db22d98dd7",
+  "size": 12875,
+  "subdir": "osx-arm64",
+  "timestamp": 1660094822432,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/blas-devel-3.9.0-16_osxarm64_openblas.tar.bz2",
+  "version": "3.9.0"
+}

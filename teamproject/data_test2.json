@@ -1,0 +1,376 @@
+{
+    "병원정보": [
+        {
+            "name": "김재욱김선린이비인후과의원",
+            "parking_type": "이비인후과",
+            "road_address": "부산 부산진구 대학로 12 3층",
+            "jibun_address": "가야동 375-3 3층"
+        },
+        {
+            "name": "이비인후과전문의",
+            "parking_type": "가정의학과",
+            "road_address": "부산 부산진구 가야대로 530",
+            "jibun_address": "가야동 167-7"
+        },
+        {
+            "name": "다온가정의원",
+            "parking_type": "정형외과",
+            "road_address": "부산 부산진구 대학로 5",
+            "jibun_address": "가야동 377-7"
+        },
+        {
+            "name": "가정의학과전문의",
+            "parking_type": "소아청소년과",
+            "road_address": "부산 부산진구 가야대로679번길 133",
+            "jibun_address": "당감동 818-151"
+        },
+        {
+            "name": "스마트정형외과의원",
+            "parking_type": "소아청소년과",
+            "road_address": "부산 부산진구 대학로 3 세화빌딩 6층",
+            "jibun_address": "가야동 379-3 세화빌딩 6층"
+        },
+        {
+            "name": "정형외과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로 586 성진빌딩",
+            "jibun_address": "가야동 265-8 성진빌딩"
+        },
+        {
+            "name": "가야우리아동의원",
+            "parking_type": "내과",
+            "road_address": "부산 부산진구 가야대로 594",
+            "jibun_address": "가야동 271-50"
+        },
+        {
+            "name": "소아청소년과전문의",
+            "parking_type": "마취통증의학과",
+            "road_address": "부산 부산진구 대학로 3 세화빌딩",
+            "jibun_address": "가야동 379-3 세화빌딩"
+        },
+        {
+            "name": "신세계소아청소년과의원",
+            "parking_type": "비뇨의학과",
+            "road_address": "부산 부산진구 대학로 12 8층",
+            "jibun_address": "가야동 375-3 8층"
+        },
+        {
+            "name": "소아청소년과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 대학로 11-6",
+            "jibun_address": "가야동 374-4"
+        },
+        {
+            "name": "더꼼꼼한치과의원",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 가야대로 586 성진빌딩 2층",
+            "jibun_address": "가야동 265-8 성진빌딩 2층"
+        },
+        {
+            "name": "김태진내과의원",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 대학로 12 5층",
+            "jibun_address": "가야동 375-3 5층"
+        },
+        {
+            "name": "내과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 대학로 12",
+            "jibun_address": "가야동 375-3"
+        },
+        {
+            "name": "온누리마취통증의학과의원",
+            "parking_type": "내과",
+            "road_address": "부산 부산진구 대학로 11",
+            "jibun_address": "가야동 374-5"
+        },
+        {
+            "name": "마취통증의학과전문의",
+            "parking_type": "이비인후과",
+            "road_address": "부산 부산진구 대학로 11",
+            "jibun_address": "가야동 374-5"
+        },
+        {
+            "name": "김동성비뇨의학과의원",
+            "parking_type": "요양병원",
+            "road_address": "부산 부산진구 가야대로 564",
+            "jibun_address": "가야동 303-3"
+        },
+        {
+            "name": "비뇨의학과전문의",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 대학로 14",
+            "jibun_address": "가야동 271-61"
+        },
+        {
+            "name": "연세치과의원",
+            "parking_type": "병원,의원",
+            "road_address": "부산 부산진구 가야공원로 44 부산 부산진구 가야공원로 44 (3층 가야동)",
+            "jibun_address": "가야동 602-7 부산 부산진구 가야공원로 44 (3층 )"
+        },
+        {
+            "name": "지성한의원",
+            "parking_type": "정신건강의학과",
+            "road_address": "부산 부산진구 가야대로 521",
+            "jibun_address": "가야동 136-74"
+        },
+        {
+            "name": "훈훈한의원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로 600 3층",
+            "jibun_address": "가야동 377-10 3층"
+        },
+        {
+            "name": "이수언치과의원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 대학로 5 4층",
+            "jibun_address": "가야동 377-7 4층"
+        },
+        {
+            "name": "김용준내과의원",
+            "parking_type": "마취통증의학과",
+            "road_address": "부산 부산진구 대학로 12 투엘브메디칼빌딩 9층",
+            "jibun_address": "가야동 375-3"
+        },
+        {
+            "name": "내과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야공원로 44",
+            "jibun_address": "가야동 602-7"
+        },
+        {
+            "name": "권혁진이비인후과의원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 대학로 3 2층",
+            "jibun_address": "가야동 379-3 2층"
+        },
+        {
+            "name": "이비인후과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로 519 강남빌딩 2층",
+            "jibun_address": "가야동 136-80 강남빌딩 2층"
+        },
+        {
+            "name": "신라요양병원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로679번길 166 가야화신타운",
+            "jibun_address": "가야동 55 가야화신타운"
+        },
+        {
+            "name": "가정의학과전문의",
+            "parking_type": "산부인과",
+            "road_address": "부산 부산진구 가야대로 530-1",
+            "jibun_address": "가야2동 167-8"
+        },
+        {
+            "name": "가야동의한의원",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 가야대로679번길 166 가야화신타운",
+            "jibun_address": "가야동 55 가야화신타운"
+        },
+        {
+            "name": "한송의원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로 597 한신센타뷰",
+            "jibun_address": "가야동 56-2 한신센타뷰"
+        },
+        {
+            "name": "엄용섭신경정신과의원",
+            "parking_type": "병원,의원",
+            "road_address": "부산 부산진구 대학로 14",
+            "jibun_address": "가야동 271-61 26 / 3"
+        },
+        {
+            "name": "정신건강의학과전문의",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 대학로61번길 3 2층",
+            "jibun_address": "가야동 433-3 2층"
+        },
+        {
+            "name": "김재욱김선린이비인후과의원",
+            "parking_type": "이비인후과",
+            "road_address": "부산 부산진구 대학로 12 3층",
+            "jibun_address": "가야동 375-3 3층"
+        },
+        {
+            "name": "이비인후과전문의",
+            "parking_type": "가정의학과",
+            "road_address": "부산 부산진구 가야대로 530",
+            "jibun_address": "가야동 167-7"
+        },
+        {
+            "name": "다온가정의원",
+            "parking_type": "정형외과",
+            "road_address": "부산 부산진구 대학로 5",
+            "jibun_address": "가야동 377-7"
+        },
+        {
+            "name": "가정의학과전문의",
+            "parking_type": "소아청소년과",
+            "road_address": "부산 부산진구 가야대로679번길 133",
+            "jibun_address": "당감동 818-151"
+        },
+        {
+            "name": "스마트정형외과의원",
+            "parking_type": "소아청소년과",
+            "road_address": "부산 부산진구 대학로 3 세화빌딩 6층",
+            "jibun_address": "가야동 379-3 세화빌딩 6층"
+        },
+        {
+            "name": "정형외과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로 586 성진빌딩",
+            "jibun_address": "가야동 265-8 성진빌딩"
+        },
+        {
+            "name": "가야우리아동의원",
+            "parking_type": "내과",
+            "road_address": "부산 부산진구 가야대로 594",
+            "jibun_address": "가야동 271-50"
+        },
+        {
+            "name": "소아청소년과전문의",
+            "parking_type": "마취통증의학과",
+            "road_address": "부산 부산진구 대학로 3 세화빌딩",
+            "jibun_address": "가야동 379-3 세화빌딩"
+        },
+        {
+            "name": "신세계소아청소년과의원",
+            "parking_type": "비뇨의학과",
+            "road_address": "부산 부산진구 대학로 12 8층",
+            "jibun_address": "가야동 375-3 8층"
+        },
+        {
+            "name": "소아청소년과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 대학로 11-6",
+            "jibun_address": "가야동 374-4"
+        },
+        {
+            "name": "더꼼꼼한치과의원",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 가야대로 586 성진빌딩 2층",
+            "jibun_address": "가야동 265-8 성진빌딩 2층"
+        },
+        {
+            "name": "김태진내과의원",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 대학로 12 5층",
+            "jibun_address": "가야동 375-3 5층"
+        },
+        {
+            "name": "내과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 대학로 12",
+            "jibun_address": "가야동 375-3"
+        },
+        {
+            "name": "온누리마취통증의학과의원",
+            "parking_type": "내과",
+            "road_address": "부산 부산진구 대학로 11",
+            "jibun_address": "가야동 374-5"
+        },
+        {
+            "name": "마취통증의학과전문의",
+            "parking_type": "이비인후과",
+            "road_address": "부산 부산진구 대학로 11",
+            "jibun_address": "가야동 374-5"
+        },
+        {
+            "name": "김동성비뇨의학과의원",
+            "parking_type": "요양병원",
+            "road_address": "부산 부산진구 가야대로 564",
+            "jibun_address": "가야동 303-3"
+        },
+        {
+            "name": "비뇨의학과전문의",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 대학로 14",
+            "jibun_address": "가야동 271-61"
+        },
+        {
+            "name": "연세치과의원",
+            "parking_type": "병원,의원",
+            "road_address": "부산 부산진구 가야공원로 44 부산 부산진구 가야공원로 44 (3층 가야동)",
+            "jibun_address": "가야동 602-7 부산 부산진구 가야공원로 44 (3층 )"
+        },
+        {
+            "name": "지성한의원",
+            "parking_type": "정신건강의학과",
+            "road_address": "부산 부산진구 가야대로 521",
+            "jibun_address": "가야동 136-74"
+        },
+        {
+            "name": "훈훈한의원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로 600 3층",
+            "jibun_address": "가야동 377-10 3층"
+        },
+        {
+            "name": "이수언치과의원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 대학로 5 4층",
+            "jibun_address": "가야동 377-7 4층"
+        },
+        {
+            "name": "김용준내과의원",
+            "parking_type": "마취통증의학과",
+            "road_address": "부산 부산진구 대학로 12 투엘브메디칼빌딩 9층",
+            "jibun_address": "가야동 375-3"
+        },
+        {
+            "name": "내과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야공원로 44",
+            "jibun_address": "가야동 602-7"
+        },
+        {
+            "name": "권혁진이비인후과의원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 대학로 3 2층",
+            "jibun_address": "가야동 379-3 2층"
+        },
+        {
+            "name": "이비인후과전문의",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로 519 강남빌딩 2층",
+            "jibun_address": "가야동 136-80 강남빌딩 2층"
+        },
+        {
+            "name": "신라요양병원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로679번길 166 가야화신타운",
+            "jibun_address": "가야동 55 가야화신타운"
+        },
+        {
+            "name": "가정의학과전문의",
+            "parking_type": "산부인과",
+            "road_address": "부산 부산진구 가야대로 530-1",
+            "jibun_address": "가야2동 167-8"
+        },
+        {
+            "name": "가야동의한의원",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 가야대로679번길 166 가야화신타운",
+            "jibun_address": "가야동 55 가야화신타운"
+        },
+        {
+            "name": "한송의원",
+            "parking_type": "치과",
+            "road_address": "부산 부산진구 가야대로 597 한신센타뷰",
+            "jibun_address": "가야동 56-2 한신센타뷰"
+        },
+        {
+            "name": "엄용섭신경정신과의원",
+            "parking_type": "병원,의원",
+            "road_address": "부산 부산진구 대학로 14",
+            "jibun_address": "가야동 271-61 26 / 3"
+        },
+        {
+            "name": "정신건강의학과전문의",
+            "parking_type": "한의원",
+            "road_address": "부산 부산진구 대학로61번길 3 2층",
+            "jibun_address": "가야동 433-3 2층"
+        }
+    ]
+}
