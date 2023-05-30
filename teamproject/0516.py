@@ -25,6 +25,4 @@ search_box = driver.find_element_by_xpath('//*[@id="google_search"]')
 
 search_box.send_keys('파이썬')
 search_box.send_keys(Keys.RETURN)
-time.sleep(1)
-
-
+time.sleep(2)
