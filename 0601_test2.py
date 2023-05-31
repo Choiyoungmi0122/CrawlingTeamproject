@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
 
 # 브라우저 꺼짐 방지 옵션
 chrome_options = Options() 
@@ -17,7 +17,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 url = 'https://map.naver.com/v5/search'
 driver.get(url)
-key_word = '부산 남구 병원'  # 검색어
+key_word = '부산 중구 병원'  # 검색어
 
 # css 찾을때 까지 10초대기
 def time_wait(num, code):
@@ -64,16 +64,17 @@ print('[크롤링 시작...]')
 
 
 #크롤링 (페이지 리스트 만큼)
-for _ in range(5):
+for _ in range(1):
     page_down(40)
     sleep(3)
+    
     # 장소 리스트
     parking_list = driver.find_elements(By.CSS_SELECTOR, 'li.DWs4Q')
-    
-    for index, data in enumerate(parking_list, start=0):  #장소 리스트 만큼    enumerate = 이름 적는거 
+    print(len(parking_list))
+    for index, data in enumerate(parking_list, start=0): #장소 리스트 만큼    enumerate = 이름 적는거 
         work=[]
-        
         try:
+            print(len(parking_list))
             if(index+1 == len(parking_list)):
                 driver.find_element(By.XPATH, '//*[@id="app-root"]/div/div[2]/div[2]/a[7]').click()
 
@@ -81,15 +82,14 @@ for _ in range(5):
             
             # (1) 상세정보 버튼 누르기 
             driver.find_element(By.CSS_SELECTOR, '#_pcmap_list_scroll_container > ul > li:nth-child({}) > div.IPtqD > a:nth-child(1) > div.LYTmB > div > span.place_bluelink.q2LdB'.format(index+1)).click()
-            sleep(2)
+            sleep(3)
             
             #프레임전환
             switch_frame('entryIframe')
-            sleep(2)
+            sleep(1)
 
             # (3) 장소명
             names = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[2]/div[1]/div[1]/span[1]') 
-
             name = names[0].text
             print(name)
             # (4) 병원 유형 
@@ -97,7 +97,12 @@ for _ in range(5):
             type = types[0].text
             #(5) 병원 주소
             addresses = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[6]/div/div[1]/div/div/div[1]/div/a/span[1]') 
-            address = addresses[0].text
+            if len(addresses) > 0:
+                address = addresses[0].text
+            else:
+                phone = "No address number available"
+                index+=1
+                
 
             # (6) 전화번호
             phones = driver.find_elements(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.nbXkr > div > span.xlx7Q')
@@ -120,6 +125,9 @@ for _ in range(5):
         except NoSuchElementException:
             print("요소를 찾을 수 없습니다.")
             index+=1
+        except ElementClickInterceptedException:
+            print("클릭할 수 없는 요소입니다. 다른 방법으로 시도해보세요.")
+            index+=1
 
 
         # dict에 데이터 집어넣기
@@ -133,19 +141,19 @@ for _ in range(5):
         }
         parking_dict['병원정보'].append(dict_temp)
         print(f'{name}...완료')
-        with open('/Users/kim/Desktop/youngmi/test3.json', 'w', encoding='utf-8') as f:
+        with open('/Users/kim/Desktop/youngmi/test4.json', 'w', encoding='utf-8') as f:
             json.dump(parking_dict, f, indent=4, ensure_ascii=False)
 
         # 프레임 전환
         switch_frame('searchIframe')
-        sleep(2)
+        sleep(1)
     
     
 
     
 
 
-sleep(2)        
+sleep(1)        
 print('[데이터 수집 완료]\n소요 시간 :', time.time() - start)
 driver.quit()  # 작업이 끝나면 창을 닫는다.
 
