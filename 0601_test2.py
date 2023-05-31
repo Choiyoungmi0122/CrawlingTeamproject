@@ -66,43 +66,47 @@ print('[크롤링 시작...]')
 parking_list = driver.find_elements(By.CSS_SELECTOR, 'li.DWs4Q')
 print(parking_list)
 
-for index, data in enumerate(parking_list, start=0):  #장소 리스트 만큼    enumerate = 이름 적는거 
-    
-    print(index+1)
-    # (1) 상세정보 버튼 누르기 
-    driver.find_element(By.CSS_SELECTOR, '#_pcmap_list_scroll_container > ul > li:nth-child({}) > div.IPtqD > a:nth-child(1) > div.LYTmB > div > span.place_bluelink.q2LdB'.format(index+1)).click()
-    sleep(2)
-    
-    #프레임전환
-    switch_frame('entryIframe')
-    sleep(2)
-
-    # (3) 장소명
-    names = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[2]/div[1]/div[1]/span[1]') 
-
-    name = names[0].text
-    print(name)
-    # (4) 병원 유형 
-    types = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[2]/div[1]/div[1]/span[2]') 
-    type = types[0].text
-    #(5) 병원 주소
-    addresses = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[6]/div/div[1]/div/div/div[1]/div/a/span[1]') 
-    address = addresses[0].text
-
-    # (6) 영업시간 상세 버튼 누르기
-    driver.find_element(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.pSavy > div > a > div.w9QyJ.vI8SM.DzD3b > div > div > span').click()
-
-    # 로딩 기다리기
-    sleep(1)
+for index in range (22, 26):  #장소 리스트 만큼    enumerate = 이름 적는거 
 
     work=[]
 
-    for day in range(2,9):
-        working = driver.find_elements(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.pSavy > div > a > div:nth-child({})'.format(day))
-        working = [element.text for element in working]
-        work.extend(working)
+    try:
+        print(index+1)
+        # (1) 상세정보 버튼 누르기 
+        driver.find_element(By.CSS_SELECTOR, '#_pcmap_list_scroll_container > ul > li:nth-child({}) > div.IPtqD > a:nth-child(1) > div.LYTmB > div > span.place_bluelink.q2LdB'.format(index+1)).click()
+        sleep(2)
+        
+        #프레임전환
+        switch_frame('entryIframe')
+        sleep(2)
 
+        # (3) 장소명
+        names = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[2]/div[1]/div[1]/span[1]') 
 
+        name = names[0].text
+        print(name)
+        # (4) 병원 유형 
+        types = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[2]/div[1]/div[1]/span[2]') 
+        type = types[0].text
+        #(5) 병원 주소
+        addresses = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[6]/div/div[1]/div/div/div[1]/div/a/span[1]') 
+        address = addresses[0].text
+
+        # (6) 영업시간 상세 버튼 누르기
+        driver.find_element(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.pSavy > div > a > div.w9QyJ.vI8SM.DzD3b > div > div > span').click()
+
+        # 로딩 기다리기
+        sleep(1)
+
+    
+        for day in range(2,9):
+            working = driver.find_elements(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.pSavy > div > a > div:nth-child({})'.format(day))
+            working = [element.text for element in working]
+            work.extend(working)
+
+    except NoSuchElementException:
+        print("요소를 찾을 수 없습니다.")
+        index+=1
 
     # dict에 데이터 집어넣기
     dict_temp = {
@@ -115,7 +119,7 @@ for index, data in enumerate(parking_list, start=0):  #장소 리스트 만큼  
     }
     parking_dict['병원정보'].append(dict_temp)
     print(f'{name}...완료')
-    with open('/Users/kim/Desktop/youngmi/data_test.json', 'w', encoding='utf-8') as f:
+    with open('/Users/kim/Desktop/youngmi/data_test2json', 'w', encoding='utf-8') as f:
         json.dump(parking_dict, f, indent=4, ensure_ascii=False)
 
     # 프레임 전환
