@@ -66,7 +66,7 @@ print('[크롤링 시작...]')
 parking_list = driver.find_elements(By.CSS_SELECTOR, 'li.DWs4Q')
 print(parking_list)
 
-for index in range (22, 26):  #장소 리스트 만큼    enumerate = 이름 적는거 
+for index, data in enumerate(parking_list, start=0):  #장소 리스트 만큼    enumerate = 이름 적는거 
 
     work=[]
 
@@ -92,13 +92,17 @@ for index in range (22, 26):  #장소 리스트 만큼    enumerate = 이름 적
         addresses = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/div[6]/div/div[1]/div/div/div[1]/div/a/span[1]') 
         address = addresses[0].text
 
-        # (6) 영업시간 상세 버튼 누르기
+        # (6) 전화번호
+        phones = driver.find_elements(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.nbXkr > div > span.xlx7Q')
+        phone = phones[0].text
+
+        # (7) 영업시간 상세 버튼 누르기
         driver.find_element(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.pSavy > div > a > div.w9QyJ.vI8SM.DzD3b > div > div > span').click()
 
         # 로딩 기다리기
         sleep(1)
 
-    
+        #(8) 영업시간 불러오기
         for day in range(2,9):
             working = driver.find_elements(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.pSavy > div > a > div:nth-child({})'.format(day))
             working = [element.text for element in working]
@@ -108,12 +112,13 @@ for index in range (22, 26):  #장소 리스트 만큼    enumerate = 이름 적
         print("요소를 찾을 수 없습니다.")
         index+=1
 
+
     # dict에 데이터 집어넣기
     dict_temp = {
         '이름': name,
         '병원종류' : type,
-        '영업시간' : work
-        # '전화번호' : phone,
+        '영업시간' : work,
+        '전화번호' : phone
         # '전문의 수' : specialty,
         # '진료과목명' : medical_treatment
     }
@@ -127,13 +132,8 @@ for index in range (22, 26):  #장소 리스트 만큼    enumerate = 이름 적
     sleep(2)
     
 
-            
-
 sleep(2)        
 print('[데이터 수집 완료]\n소요 시간 :', time.time() - start)
 driver.quit()  # 작업이 끝나면 창을 닫는다.
 
-# json 파일로 저장
-# with open('/Users/kim/Desktop/youngmi/data_test.json', 'w', encoding='utf-8') as f:
-#     json.dump(parking_dict, f, indent=4, ensure_ascii=False)
 
