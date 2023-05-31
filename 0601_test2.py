@@ -17,7 +17,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 url = 'https://map.naver.com/v5/search'
 driver.get(url)
-key_word = '부산 중구 병원'  # 검색어
+key_word = '부산 사상구 병원'  # 검색어
 
 # css 찾을때 까지 10초대기
 def time_wait(num, code):
