@@ -17,7 +17,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 url = 'https://map.naver.com/v5/search'
 driver.get(url)
-key_word = '부산 사상구 병원'  # 검색어
+key_word = '부산 동래구 병원'  # 검색어
 
 # css 찾을때 까지 10초대기
 def time_wait(num, code):
@@ -64,13 +64,13 @@ print('[크롤링 시작...]')
 
 
 #크롤링 (페이지 리스트 만큼)
-for _ in range(1):
+for _ in range(6):
     page_down(40)
     sleep(3)
     
     # 장소 리스트
     parking_list = driver.find_elements(By.CSS_SELECTOR, 'li.DWs4Q')
-    print(len(parking_list))
+
     for index, data in enumerate(parking_list, start=0): #장소 리스트 만큼    enumerate = 이름 적는거 
         work=[]
         try:
@@ -113,7 +113,7 @@ for _ in range(1):
                 index+=1
 
             # (7) 영업시간 상세 버튼 누르기
-            driver.find_element(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.pSavy > div > a > div.w9QyJ.vI8SM.DzD3b > div > div > span').click()
+            driver.find_element(By.CSS_SELECTOR, '#app-root > div > div > div > div:nth-child(6) > div > div.place_section.no_margin.vKA6F > div > div > div.O8qbU.pSavy > div > a > div.w9QyJ.vI8SM > div > div > span').click()
             sleep(1)
 
             #(8) 영업시간 불러오기
