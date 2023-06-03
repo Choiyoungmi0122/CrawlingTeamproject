@@ -17,7 +17,9 @@ driver = webdriver.Chrome(options=chrome_options)
 
 url = 'https://map.naver.com/v5/search'
 driver.get(url)
+
 key_word = '부산 동래구 병원'  # 검색어
+
 
 # css 찾을때 까지 10초대기
 def time_wait(num, code):
@@ -133,22 +135,22 @@ for _ in range(6):
         # dict에 데이터 집어넣기
         dict_temp = {
             '이름': name,
+
+            '병원주소' : address,
             '병원종류' : type,
             '영업시간' : work,
             '전화번호' : phone
-            # '전문의 수' : specialty,
-            # '진료과목명' : medical_treatment
         }
         parking_dict['병원정보'].append(dict_temp)
         print(f'{name}...완료')
-        with open('/Users/kim/Desktop/youngmi/test4.json', 'w', encoding='utf-8') as f:
+        with open('/Users/choiyoungmi/anaconda3/envs/bigdata/teamproject/중구.json', 'w', encoding='utf-8') as f:
             json.dump(parking_dict, f, indent=4, ensure_ascii=False)
 
         # 프레임 전환
         switch_frame('searchIframe')
         sleep(1)
     
-    
+
 
     
 
